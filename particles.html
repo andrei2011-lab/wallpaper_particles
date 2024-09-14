@@ -8,6 +8,9 @@
             canvas.width=window.innerWidth
             canvas.height=window.innerHeight
             var ctx=canvas.getContext("2d")
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle="white"
             ctx.strokeRect(0,0,100,100);
             ctx.fillRect(130, 190, 40, 60);
         </script>
